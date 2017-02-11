@@ -9,3 +9,6 @@
 .uk-logo {
     width: 120px;
 }
+.uk-navbar-container:not(.uk-navbar-transparent) {
+    background: #333 none repeat scroll 0 0 !important;
+}
