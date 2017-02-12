@@ -10,9 +10,12 @@
     width: 120px;
 }
 .uk-navbar-container:not(.uk-navbar-transparent) {
-    background: #414349 none repeat scroll 0 0 !important;
+    background: #414349 !important;
 	border-bottom: 4px solid #5cd1df;
 }
 .uk-card-primary {
-    background: #5cd1df none repeat scroll 0 0;
+    background: #5cd1df;
+}
+.uk-button-primary {
+    background-color: #5cd1df !important;
 }
