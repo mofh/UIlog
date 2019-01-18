@@ -13,14 +13,14 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-router/2.1.1/vue-router.min.js"></script>
    <script src="js/jparticle.jquery.js"></script>
    <script src="js/jparticle.jquery.min.js"></script>
-   
+
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.9/css/uikit.min.css" />
    <link rel="stylesheet" href="css/custom.css" />
 
    <link  type="image/png" href="images/favicon.png" rel="icon" />
 
-	
-  </head>	
+
+  </head>
 <body>
 <nav class="uk-navbar uk-navbar-container uk-margin">
 <a class="uk-navbar-center uk-logo uk-logo" href="/index.html"><img src="images/logo.png" alt="UIlogin"></a>
@@ -29,15 +29,17 @@
 	<div class="uk-position-center">
 	<div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-grid" uk-grid="">
     <div id="jParticle" class="uk-card-media-left uk-cover-container uk-first-column uk-card-primary uk-inline">
-        <img src="https://getuikit.com/docs/images/light.jpg" alt="" uk-cover="" class="uk-cover" style="width:600px ; height:400px ;">
+	<!-- Replace the URL with any image URL you have if you want to -->
+        <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/BBmc1w7Iiq35z51n/videoblocks-abstract-dark-background-honeycomb-grid-with-lighting-effect-for-technology_hsh9u2w5g_thumbnail-full01.png" alt="" uk-cover="" class="uk-cover" style="width:600px ; height:400px ;">
         <canvas width="600" height="400"></canvas>
         <div class="uk-overlay uk-position-center">
-            <p>Center</p>
+		    <!-- Uncomment the following if you want text displayed at the center of the image -->
+            <!-- <p>Centered Text</p> -->
     </div>
 	</div>
+  <!-- Begin of Login Form, editing is not advised unless said otherwise -->
     <div>
         <div class="uk-card-body">
-            
 <form action="https://cpanel.byethost.com/login.php" method="post" name="login" >
 <div class="uk-margin">
 <div class="uk-inline uk-width-1-1">
@@ -45,7 +47,8 @@
     <circle fill="none" stroke="#000" stroke-width="1.1" cx="9.9" cy="6.4" r="4.4"/>
     <path fill="none" stroke="#000" stroke-width="1.1" d="M1.5,19 C2.3,14.5 5.8,11.2 10,11.2 C14.2,11.2 17.7,14.6 18.5,19.2"/>
 </svg></span>
-<input class="uk-input" name="uname" id="mod_login_username" type="text" class="inputbox" alt="username" size="10" />
+<!-- Replace "zyke" with your reseller's placeholder -->
+<input class="uk-input" name="uname" id="mod_login_username" value="zyke_" type="text" class="inputbox" alt="username" size="10" />
 </div>
     </div>
  <div class="uk-margin">
@@ -59,8 +62,7 @@
     </div>
  <div class="uk-margin-remove">
 <div class="uk-inline uk-width-1-1">
-<label><a class="uk-align-right" href="https://cpanel.byethost.com/lostpassword.php">Password Reset</a></label>
-<label><input class="uk-checkbox" type="checkbox"> Remember Me</label>
+<label><a class="uk-align-left" href="https://cpanel.byethost.com/lostpassword.php">Password Reset</a></label>
 </div>
     </div>
 	<div class="uk-margin-remove">
@@ -71,6 +73,7 @@
   </form>
         </div>
     </div>
+    <!-- End of Login Form, editing is now safe -->
 </div>
 	   </div>
 	</div>
